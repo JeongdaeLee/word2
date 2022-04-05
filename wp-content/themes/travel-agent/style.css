@@ -1,0 +1,185 @@
+/*
+Theme Name: Travel Agent
+Template: adventure-travelling
+Text Domain: travel-agent
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/themes/free-travel-agent-wordpress-theme/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Travel Agent is a phenomenal and multipurpose theme best suitable to develop websites for travel agencies, tour operator, travel company, travel deals, package tours, flight booking agency, wellness resort, hotel booking, adventure travel destination explorer, tourism, travel packages, visa and passport services, medical tourism, vacation planning and holiday trips, etc. The theme can be utilized as a blog website too. You can use it to develop website for blogging, lifestyle, travel, fashion, technology, airlines, photographic agencies, blogger or any other kind of blog website. The theme is already worked on SEO that will be responsible for your site’s quick search engine ranking. Its mobile-friendly layout works well and appears perfect on any device. Developers are allowed to add custom codes like CSS/JS and shortcodes to enhance the functionality of their website. It has got all the features required for a tourism related website. Travel Agent comes integrated with WooCommerce to enable your buyers to do safe transactions and buy packages online. Anyone can translate your website into the language they want to read in. You can easily answer guest queries through the website. It is user-friendly and handy which helps to develop a website with ease. Anyone from zero coding knowledge to professional developers can design a creative website using our theme.
+Tags: wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, blog, portfolio, photography
+Version: 1.1
+Tested up to: 5.9
+Requires PHP: 5.6
+*/
+
+#main-content p a {
+  text-decoration: underline;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
+
+a,.box-content a, #theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a,.main-navigation a:hover,#theme-sidebar h3,#theme-sidebar a:hover,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a{
+  color: #0071a7;
+}
+.search-box i,.prev.page-numbers, .next.page-numbers,.page-numbers,#theme-sidebar button[type="submit"], #footer button[type="submit"],span.meta-nav,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#comments input[type="submit"],button[type="submit"],.error-404 [type="submit"],.headerbox,.main-navigation ul ul,.more-btn a,#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon,.blog-info{
+  background: #0071a7;
+}
+.search_inner form.search-form,#static-blog h3{
+  border-color: #0071a7;
+}
+.search-box i,.call i, .email i,p.infotext,.logo a,.page-numbers,#theme-sidebar button[type="submit"], #footer button[type="submit"],span.meta-nav,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#comments input[type="submit"],button[type="submit"],.more-btn a,.blog-info{
+  color: #fff;
+}
+
+/* MENUS */
+
+.menubar {
+  background: transparent;
+  border-bottom: 2px solid #2571a7;
+}
+.main-navigation a{
+  color: #222222;
+}
+.main-navigation ul ul li, .menubar.scrolled .main-navigation ul ul li {
+  border-bottom: 1px solid #2f8ed1;
+}
+
+/* SLIDER */
+
+#slider .carousel-caption {
+  right: 30%;
+  left: 30%;
+}
+#slider .inner_carousel h2,#slider .inner_carousel p,.more-btn{
+  text-align: center;
+}
+#slider .inner_carousel h2 {
+  padding: 0;
+  border: none;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.more-btn a{
+  padding: 15px;
+}
+#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon {
+  padding: 10px 20px;
+}
+#slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover{
+  background: #222222;
+  color: #ffffff;
+}
+
+/* TOURS */
+
+#travel-offer strong {
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #0071a7;
+}
+#travel-offer h2 {
+  border-left: solid 6px #0071a7;
+  padding-left: 10px;
+}
+.offer-box h3 {
+  font-size: 20px;
+}
+.cat-inner-box {
+  border: solid 1px #e0e5ea;
+  box-shadow: 0 0 5px 1px #e0e5ea;
+  position: relative;
+}
+.cat-inner-box img{
+  width: 100%;
+}
+.cat-inner-box h4 {
+  position: absolute;
+  top: 0;
+  background: #0071a7;
+  padding: 8px 14px;
+  color: #fff;
+  right: 0;
+}
+.offer-box a {
+  background: #0071a7;
+  color: #fff;
+  padding: 8px 20px;
+  font-weight: 500;
+}
+
+/* OTHER CSS */
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+  border: 1px solid #333;
+  padding: 2px;
+}
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+@media screen and (max-width: 767px){
+  .innermenubox {
+    padding: 0;
+  }
+  .toggle-nav i {
+    background: #0071a7;
+    padding: 10px;
+  }
+  .sidenav{
+    background: #0071a7;
+  }
+  .nav ul li a:hover,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a {
+    color: #fff;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+  #slider .carousel-caption {
+    right: 12%;
+    left: 12%;
+  }
+  .innermenubox {
+    padding: 0;
+  }
+  .toggle-nav i {
+    background: #0071a7;
+    padding: 10px;
+  }
+  .sidenav{
+    background: #0071a7;
+  }
+}
